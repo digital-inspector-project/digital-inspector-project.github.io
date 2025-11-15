@@ -70,7 +70,7 @@
     "imageResize": true,
     "chatbutton": {},
     "favicon": "@PROJECT_PATH@/assets/images/logotop1_2.gif",
-    "mbrsiteDomain": "kfaaumjwjs",
+    "mbrsiteDomain": "db43reqjrq",
     "usedWebp": true,
     "cssOptimize": true,
     "lazyLoad": true,
@@ -88,7 +88,7 @@
     "mcSmartCart": {
       "currency": "USD"
     },
-    "global_footer_custom": "\n"
+    "global_footer_custom": "<script>\n  if (window.location.pathname.endsWith('.html')) {\n      window.history.replaceState({}, '', window.location.pathname.replace('.html', ''));\n  }\n</script>\n"
   },
   "pages": {
     "regulamin-sklepu.html": {
