@@ -70,7 +70,7 @@
     "imageResize": true,
     "chatbutton": {},
     "favicon": "@PROJECT_PATH@/assets/images/logotop1_2.gif",
-    "mbrsiteDomain": "xfbkfkwwtd",
+    "mbrsiteDomain": "euj7yf7jsc",
     "usedWebp": true,
     "cssOptimize": true,
     "lazyLoad": true,
@@ -84,7 +84,7 @@
     "uniqCompNum": 618,
     "versionPublish": "5.9.25",
     "screenshot": "screenshot.png",
-    "global_header_custom": "<script id=\"chatway\" async=\"true\" src=\"https://cdn.chatway.app/widget.js?id=RFYbskMFVb8G\"></script>\n\n<script type=\"text/javascript\" charset=\"UTF-8\" src=\"//cdn.cookie-script.com/s/5def35f81ba1f8df9ed150ac29bb7065.js\"></script>",
+    "global_header_custom": "<script id=\"chatway\" async=\"true\" src=\"https://cdn.chatway.app/widget.js?id=RFYbskMFVb8G\"></script>",
     "mcSmartCart": {
       "currency": "USD"
     },
