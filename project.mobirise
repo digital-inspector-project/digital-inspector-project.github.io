@@ -70,7 +70,7 @@
     "imageResize": true,
     "chatbutton": {},
     "favicon": "@PROJECT_PATH@/assets/images/logotop1_2.gif",
-    "mbrsiteDomain": "db43reqjrq",
+    "mbrsiteDomain": "or4jezkofq",
     "usedWebp": true,
     "cssOptimize": true,
     "lazyLoad": true,
@@ -88,7 +88,7 @@
     "mcSmartCart": {
       "currency": "USD"
     },
-    "global_footer_custom": "<script>\n  if (window.location.pathname.endsWith('.html')) {\n      window.history.replaceState({}, '', window.location.pathname.replace('.html', ''));\n  }\n</script>\n"
+    "global_footer_custom": "<script>\nif (window.location.pathname.endsWith('.html')) {\n  // 1. Stwórz nową, czystą ścieżkę (np. /index)\n  const newPath = window.location.pathname.replace('.html', '');\n  \n  // 2. Stwórz nowy pełny URL, ale tym razem DODAJ z powrotem parametry i hashe\n  const newUrl = newPath + window.location.search + window.location.hash;\n  \n  // 3. Dopiero teraz podmień adres\n  window.history.replaceState({}, '', newUrl);\n}\n</script>"
   },
   "pages": {
     "regulamin-sklepu.html": {

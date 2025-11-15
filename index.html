@@ -38,7 +38,7 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap"></noscript>
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,300i,400i,500i,600i,700i,800i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,300i,400i,500i,600i,700i,800i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=iDQBbt"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=iDQBbt" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=zHHF5H"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=zHHF5H" type="text/css">
 
   
   <script id="chatway" async="true" src="https://cdn.chatway.app/widget.js?id=RFYbskMFVb8G"></script>
@@ -3611,7 +3611,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-6 mx-auto mbr-form order-2" data-form-type="formoid">
-<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="Gsllu3gEmfpGLwKrRQobATys7K8+VOVPl10bzVRw9ep8sCmWlf+XBg9u2NTdFHWSlQXL/S9HumgzCYinRDiJkOLFc6HGGstk1iPBcrzHv2TebdYd8fYv8y8m8p0nApYr.S6ejmDrU/icqV2AY8SmKdYmsl3SeCrdfmKxAkR6JwHKYijL/bVLhfJnFxr5Z+hegM/t7RpjEAGk9Wxv9W+MhNDnZm0+iOeKXIb3dqq0CbRvLhhGl4HagmqaHE5kpbjIw">
+<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="1gI/LMhbg7tIojqmN/vqcAM1r7/ZTIrBXqCtqA4LLANb1R3CcKAnPzTXq+T3UEnT4HIv/aU/lefqZH2Dn1DUluwoPUOIm7mTSeLkcPlkpnaKNq015eJ7a9HVTupzYCpc.34Dyqo7pBayia3m4G/laopF5X0YklBKkvfN9nak4Dm0eFJtUxP8HX+vy9wQxwPvmuTEH4a2M4PbMsWq7MbzbZR6jIvuz73SF1CMjK/CvNNuW1VAxLXsxcj4XWsDiprgx">
 <div class="form-row">
 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Dziękujemy za wypełnienie zgłoszenia !</div>
 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
@@ -3985,7 +3985,7 @@
 				<div class="form-block">
 					<div data-form-type="formoid">
 						<!---Formbuilder Form--->
-						<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="gE2Ptgu1ykm/dELCM93FywFvJ8iUOyf2mPKS8PYNXwOUCWR0oiNjiC5dZliQgvz4ScBiZnaiUPGKUrkA0qSo15yePLu9FY9ZqAM2uRhCc2LcmV9dcWHiCjNEL/D7tARq.dHiOnY/1/R8avPHTavWMl7WGOn01gLy/MrFkICd1fnNHzmfAR7PJyKHw2Mb3zxA6qciee619O84eT3hDNi2vabSLT538dUQv1lEzMXh8n1p0zYc548tw82/homoO45A7">
+						<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="NEksvxKZmJSpq6tIvA0TX+4yGbgESRY+XAliekEcC0qReVPqNyFJKCqi/D6fuok7HN3qVCdbnbLIvNdOagDAZbYvjcYn/0CoRz1HswpkMC7C/gtDIzAyUMstkiGeBmQH.uaMecUUsLyIWdywD2B3lbWXe8fX7vSLB1lxP009LmTaHz27nOQeMYiLoQCbuVdcAoJvNzDJ1wM8U+seYBDHTzgDLYXlNYpCD+ReqUJS1A1+Cm/ovQm8ig4yOS6ddvgAd">
 							<div class="form-row">
 								<div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Dziękujemy i doceniamy !
 									filling out the form!</div>
@@ -4127,11 +4127,17 @@
   <script src="assets/formoid.min.js"></script>
   
   <script>
-  if (window.location.pathname.endsWith('.html')) {
-      window.history.replaceState({}, '', window.location.pathname.replace('.html', ''));
-  }
+if (window.location.pathname.endsWith('.html')) {
+  // 1. Stwórz nową, czystą ścieżkę (np. /index)
+  const newPath = window.location.pathname.replace('.html', '');
+  
+  // 2. Stwórz nowy pełny URL, ale tym razem DODAJ z powrotem parametry i hashe
+  const newUrl = newPath + window.location.search + window.location.hash;
+  
+  // 3. Dopiero teraz podmień adres
+  window.history.replaceState({}, '', newUrl);
+}
 </script>
-
   <script>
 function scrollToSectionFromQuery() {
     // Sprawdź, czy w adresie jest cokolwiek po znaku "?"
