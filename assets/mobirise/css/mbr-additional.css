@@ -2927,7 +2927,7 @@ section.lazy-placeholder:after {
 .cid-v2tz4gDCMu .for-mobile .icon-transition span {
   position: relative;
   z-index: 5;
-  top: -260px;
+  top: -240px;
   left: 41px;
   padding: 0.9rem 0.9rem;
   border-radius: 30%;
@@ -3947,6 +3947,8 @@ section.lazy-placeholder:after {
   padding-top: 0px;
   padding-bottom: 0px;
   background-image: url("../../../assets/images/dots.svg");
+  background-repeat: repeat;
+  background-size: 30px 30px;
 }
 .cid-v24KnRPuRR .link-wrap {
   width: 100%;
@@ -4044,7 +4046,7 @@ section.lazy-placeholder:after {
 }
 .cid-v24KnRPuRR .card-title,
 .cid-v24KnRPuRR .card-box {
-  text-align: left;
+  text-align: right;
 }
 .cid-v28GXxyR6G {
   padding-top: 0px;
@@ -6951,7 +6953,7 @@ section.lazy-placeholder:after {
 @media (max-width: 767px) {
   .cid-v2qDaXabMf .item .item-wrapper .item-img {
     position: relative;
-    left: -20px;
+    left: 20px;
     width: 280px;
     min-height: 700px;
   }
@@ -10706,7 +10708,7 @@ section.lazy-placeholder:after {
   display: inline-block;
   border-radius: 100%;
   padding: 22px;
-  background-color: #faff00;
+  background-color: #ffffff;
   font-size: 3.45rem;
   color: #130947;
   margin-right: 15px;
@@ -10754,12 +10756,12 @@ section.lazy-placeholder:after {
 }
 .cid-uZknCPoOn2 .widget-text {
   text-align: left;
-  color: #ffffff;
+  color: #000000;
 }
 .cid-uZknCPoOn2 .widget-title,
 .cid-uZknCPoOn2 .widget-icon {
   text-align: left;
-  color: #000000;
+  color: #121212;
 }
 .cid-uZknCPoOn2 H3 {
   color: #444444;
@@ -11356,7 +11358,7 @@ section.lazy-placeholder:after {
   content: "";
 }
 .cid-v2DRBBuBXr .modal-content {
-  background: #efefef;
+  background: #ffffff;
   position: relative;
   display: flex;
   -ms-flex-direction: column;
@@ -12315,10 +12317,12 @@ section.lazy-placeholder:after {
 }
 .cid-v0iqAQE96b .mbr-section-btn .btn {
   width: 100%;
+  border-radius: 1.25rem;
 }
 .cid-v0iqAQE96b a.btn {
   height: 100%;
   margin: 0;
+  border-radius: 1.25rem;
   padding: 14px 40px;
 }
 .cid-v0iqAQE96b .book-page1 {
