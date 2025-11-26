@@ -2838,16 +2838,16 @@ section.lazy-placeholder:after {
 }
 .cid-v1Sl3q4fnH .image-wrapper {
   position: absolute;
-  top: 20px;
-  left: 200px;
-  width: 500px;
+  top: -40px;
+  left: 10px;
+  width: 700px;
   height: auto;
   transform: rotate(50deg);
   animation: floatAnimation 3s ease-in-out infinite;
 }
 .cid-v1Sl3q4fnH .for-tablet-portrait {
   position: absolute;
-  top: -80px;
+  top: -90px;
   right: 200px;
   width: 100px;
   height: auto;
@@ -2989,7 +2989,7 @@ section.lazy-placeholder:after {
   font-size: 10px;
 }
 .cid-v2tz4gDCMu .for-desktop .icon-transition span:hover {
-  background-color: #37a20a;
+  background-color: #95e574;
 }
 .cid-v2tz4gDCMu .for-tablet-portrait .icon-transition span {
   position: relative;
@@ -3007,13 +3007,13 @@ section.lazy-placeholder:after {
   font-size: 10px;
 }
 .cid-v2tz4gDCMu .for-tablet-portrait .icon-transition span:hover {
-  background-color: #37a20a;
+  background-color: #95e574;
 }
 .cid-v2tz4gDCMu .for-mobile .icon-transition span {
   position: relative;
   z-index: 5;
   top: -330px;
-  left: 70px;
+  left: 50px;
   padding: 0.9rem 0.9rem;
   border-radius: 30%;
   color: white;
@@ -3026,7 +3026,7 @@ section.lazy-placeholder:after {
   font-size: 10px;
 }
 .cid-v2tz4gDCMu .for-mobile .icon-transition span:hover {
-  background-color: #37a20a;
+  background-color: #95e574;
 }
 .cid-v2tz4gDCMu .social-media ul {
   margin: 0;
@@ -16466,7 +16466,7 @@ section.lazy-placeholder:after {
 .cid-v3COa6QDG1 .item .item-wrapper .card-box {
   height: 100%;
   padding: 48px 44px 36px;
-  background-color: #9ce07d;
+  background-color: #c7cb05;
   border-radius: 16px;
 }
 @media (max-width: 992px) {
