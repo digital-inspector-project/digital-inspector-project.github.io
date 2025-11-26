@@ -2879,12 +2879,15 @@ section.lazy-placeholder:after {
     width: 400px;
   }
 }
+.cid-v1Sl3q4fnH .mbr-overlay {
+  background-color: #0a0a20 !important;
+  mix-blend-mode: multiply;
+  opacity: 0.6 !important;
+}
 .cid-v0q65lHTmZ {
   padding-top: 2rem;
   padding-bottom: 0rem;
-  background-image: url("../../../assets/images/dots.svg");
-  background-repeat: repeat;
-  background-size: 30px 30px;
+  background-color: #080813;
 }
 .cid-v0q65lHTmZ .mbr-fallback-image.disabled {
   display: none;
@@ -2967,7 +2970,7 @@ section.lazy-placeholder:after {
 .cid-v2tz4gDCMu {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-image: url("../../../assets/images/dots.svg");
+  background-color: #080813;
 }
 .cid-v2tz4gDCMu a:link {
   text-decoration: none;
@@ -3121,7 +3124,7 @@ section.lazy-placeholder:after {
 .cid-v3u2LZKuBR {
   padding-top: 0rem;
   padding-bottom: 3rem;
-  background-image: url("../../../assets/images/background1-33.webp");
+  background-color: #080813;
 }
 .cid-v3u2LZKuBR .mbr-fallback-image.disabled {
   display: none;
@@ -3178,7 +3181,7 @@ section.lazy-placeholder:after {
 .cid-v3pNWTOMhC {
   padding-top: 0rem;
   padding-bottom: 3rem;
-  background-image: url("../../../assets/images/background1-33.webp");
+  background-color: #080813;
 }
 .cid-v3pNWTOMhC .mbr-fallback-image.disabled {
   display: none;
@@ -3235,7 +3238,7 @@ section.lazy-placeholder:after {
 .cid-uZh78SCdhU {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: url("../../../assets/images/mbr-2-1920x1078.webp");
+  background-color: #080813;
 }
 .cid-uZh78SCdhU .mbr-section-title,
 .cid-uZh78SCdhU .mbr-section-subtitle {
@@ -4151,7 +4154,7 @@ section.lazy-placeholder:after {
 .cid-v2a3d50XBa {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #14011d;
+  background-color: #080813;
 }
 .cid-v2a3d50XBa .mbr-section-title {
   margin: 0;
@@ -5144,7 +5147,7 @@ section.lazy-placeholder:after {
   position: relative !important;
 }
 .cid-v0qFMrdku5 .team-item .item-image img {
-  width: 100%;
+  width: 80%;
 }
 .cid-v0qFMrdku5 .team-item .item-image::after {
   background: #000000;
